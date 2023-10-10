@@ -23,7 +23,14 @@ display: none;
 
 .menu__lista{
   display: flex;
+  justify-content: space-around;
+  height: 100%;
 }
+
+.menu__lista li {
+  align-self: center;
+}
+
 .menu__lista:nth-child(2),
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(4) {
