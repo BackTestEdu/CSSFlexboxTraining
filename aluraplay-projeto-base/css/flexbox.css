@@ -36,6 +36,25 @@ display: none;
   flex-direction: column;
   gap: 5px;
 }
+
+@media (min-width: 834px) {
+  .menu__container{
+    display: flex;
+    height: 100%;
+    width: 74px;
+    
+    
+  } 
+
+  .menu__lista{
+    flex-flow: row wrap;
+    align-content: start;
+    gap: 30px;
+  }
+ 
+  
+}
+
 .menu__lista:nth-child(2) ,
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(4) {
