@@ -19,7 +19,7 @@ O site Alura Play é uma plataforma de ensino online que oferece cursos de alta 
 
 - HTML5
 - CSS3 (utilizando media queries para estilos responsivos)
-- JavaScript (opcional, para funcionalidades interativas)
+- JavaScript (opcional, para funcionalidades interativas, nada implementado ainda)
 
 ## Fluxo de Desenvolvimento
 
