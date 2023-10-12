@@ -33,27 +33,7 @@ body {
   border-radius: 10px;
   display:flex;
   flex-wrap:wrap;
-}
-/* Solução do professor - achei que era pra usar order :v 
-display:flex;
-flex-wrap:wrap;
-flex-direction:column; */
-
-.html{
-  order:1;
-}
-.css{
-  order:4;
-}
-.tailwind{
-  order:5;
-}
-.angular{
-  order:2;
-}
-.react{
-  order:3;
-}
-.javascript{
-  order:6;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
 }
