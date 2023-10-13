@@ -86,6 +86,7 @@ body{
   display: grid;
   grid-template-areas:"v1 v2 v3 v4 v5";
   gap:1rem;
+  text-align: start;
 }
 .videos__item{
   height: 303px;
@@ -98,8 +99,7 @@ body{
   grid-template-areas: 
   "img h3 h3"
   "img p p";
-
-
+  gap:1rem;
 }
 .descricao-video img {
   grid-area: img;
