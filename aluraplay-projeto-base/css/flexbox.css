@@ -83,17 +83,20 @@ body{
 
 /* VIDEO */
 .videos__container{
-  display: grid;
-  grid-template-areas:"v1 v2 v3 v4 v5";
+  display: flex;
+  flex-wrap: wrap;
   gap:1rem;
-  text-align: start;
+  
 }
 .videos__item{
   height: 303px;
   width: 280px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .descricao-video {
+  text-align: start;
   display: grid;
   align-items: center;
   grid-template-areas: 
