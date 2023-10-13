@@ -1,3 +1,7 @@
+
+body{
+}
+
 /* CABEÇALHO */
 
 .cabecalho__container {
@@ -78,11 +82,37 @@
 }
 
 /* VIDEO */
-
+.videos__container{
+  display: grid;
+  grid-template-areas:"v1 v2 v3 v4 v5";
+  gap:1rem;
+}
 .videos__item{
   height: 303px;
   width: 280px;
 }
+
+.descricao-video {
+  display: grid;
+  align-items: center;
+  grid-template-areas: 
+  "img h3 h3"
+  "img p p";
+
+
+}
+.descricao-video img {
+  grid-area: img;
+  
+}
+
+.descricao-video h3 {
+  grid-area: h3;
+}
+.descricao-video p {
+  grid-area: p;
+}
+
 
 /* RODAPÉ */
 
