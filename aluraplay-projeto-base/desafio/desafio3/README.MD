@@ -34,7 +34,7 @@ Suponha que é preciso que apenas o primeiro item diminua. É possível com o se
     background-color: rgb(0, 217, 255);
     flex-shrink: 1;
 }
-
+```
 ## Objetivo: Itens do Meio Encolhem Mais
 
 Seguindo esta linha de raciocínio, quais valores aplico para cada item, para que, quando o layout diminua de largura, os dois itens do meio encolham mais do que os dois das extremidades?
