@@ -50,10 +50,6 @@ body {
   background: rgb(0, 217, 255);
   flex-shrink: 1;
 }
-.quadros__container {
-  max-width: 1000px;
-  padding: 10px;
-}
 .items__container {
   max-width: 1000px;
   width: 100%;
