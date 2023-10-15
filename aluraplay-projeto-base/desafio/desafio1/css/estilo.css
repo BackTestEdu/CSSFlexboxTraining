@@ -31,11 +31,14 @@ body {
   background: #525c63d8;
   padding: 10px;
   border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .quadros__item:nth-child(1),
 .quadros__item:nth-child(3) {
   margin-top: 1px;
+  
 }
 
 .obra-titulo {
