@@ -22,9 +22,17 @@ body {
   text-decoration: underline 3px;
   text-underline-offset: 25px;
 }
+.obra-titulo {
+  border: 1px dotted white;
+  padding: 10px;
+  user-select: none;
+  text-align: center;
+  width: 275px;
+}
 
 .quadros__container {
-  width: 1650px;
+  width: 100%;
+  max-width: 1650px;   
   position: absolute;
   left: 176px;
   top: 150px;
@@ -33,6 +41,32 @@ body {
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
+}
+.quadros__item{
+  display: flex;
+  flex-basis: content;
+}
+
+@media (max-width: 768px) {
+  
+  .quadros__item,.obra-titulo,.obra-autor,.quadro-imagem{
+    width: 70%;
+    align-self: center;
+    justify-self: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .quadros__item,.obra-titulo,.obra-autor ,.quadro-imagem{
+    width: 80%;
+    align-self: center;
+    justify-self: start;
+  }
+  
 }
 
 .quadros__item:nth-child(1),
@@ -41,10 +75,3 @@ body {
   
 }
 
-.obra-titulo {
-  border: 1px dotted white;
-  padding: 10px;
-  user-select: none;
-  text-align: center;
-  width: 275px;
-}
