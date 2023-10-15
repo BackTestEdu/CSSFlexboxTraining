@@ -42,4 +42,4 @@ Seguindo esta linha de raciocínio, quais valores aplico para cada item, para qu
 
 # Segue imagem ilustrando o objetivo:
 
-https://caelum-online-public.s3.amazonaws.com/2577-flexbox/imagens/aula5-img4.png
+![Imagem 1](https://caelum-online-public.s3.amazonaws.com/2577-flexbox/imagens/aula5-img4.png)
