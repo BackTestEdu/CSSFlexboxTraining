@@ -1,3 +1,34 @@
+body{
+font-family: "Jura", sans-serif;
+background: linear-gradient(180deg, #154580 0%, #041833 100%);
+color: white;
+height: 100vh;
+width: 100vw;
+}
+
+.titulo {
+  position: absolute;
+  top: 30px;
+  left: 180px;
+  font-size: 34px;
+  font-weight: bold;
+  text-decoration: underline 3px;
+  text-underline-offset: 25px;
+}
+
+.fotos__container{
+  width: 100%;
+  max-width: 1650px;   
+  position: absolute;
+  left: 176px;
+  top: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #525c63d8;
+}
+
 .fill {object-fit: fill;}
 .contain {object-fit: contain;}
 .cover {object-fit: cover;}
