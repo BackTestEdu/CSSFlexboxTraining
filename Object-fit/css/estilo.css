@@ -16,6 +16,11 @@ width: 100vw;
   text-underline-offset: 25px;
 }
 
+.fotos__item{
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
 .fotos__container{
   width: 100%;
   max-width: 1650px;   
@@ -25,8 +30,10 @@ width: 100vw;
   padding: 10px;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
   background: #525c63d8;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .fill {object-fit: fill;}
@@ -36,6 +43,7 @@ width: 100vw;
 .none {object-fit: none;}
 
 img{
+  margin-top: 30px;
   width:200px;
   height:300px;
 }
