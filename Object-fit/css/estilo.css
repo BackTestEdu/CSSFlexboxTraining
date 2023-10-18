@@ -7,9 +7,12 @@ width: 100vw;
 }
 
 h2{
+  font-size: x-large;
   margin-top: 30px;
 }
-
+p{
+  margin: 10px;
+}
 img{
   margin-top: 30px;
   width: 140px;
@@ -26,15 +29,21 @@ img{
   text-decoration: underline 3px;
   text-underline-offset: 25px;
 }
-
+.foto__comparativa{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
 .fotos__propriedade{
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
   padding: 10px;
 }
 .fotos__container{
   width: 100%;
-  max-width: 1650px;   
+  max-width: 1250px;   
   position: absolute;
   left: 176px;
   top: 150px;
@@ -42,8 +51,9 @@ img{
   border-radius: 10px;
   display: flex;
   background: #525c63d8;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .fill {object-fit: fill;}
