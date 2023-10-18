@@ -6,6 +6,17 @@ height: 100vh;
 width: 100vw;
 }
 
+h2{
+  margin-top: 30px;
+}
+
+img{
+  margin-top: 30px;
+  width:100px;
+  height:150px;
+  background: lightblue
+}
+
 .titulo {
   position: absolute;
   top: 30px;
@@ -16,8 +27,8 @@ width: 100vw;
   text-underline-offset: 25px;
 }
 
-.fotos__item{
-  flex-direction: column;
+.fotos__propriedade{
+  flex-direction: row;
   flex-wrap: nowrap;
   padding: 10px;
 }
@@ -31,8 +42,7 @@ width: 100vw;
   border-radius: 10px;
   display: flex;
   background: #525c63d8;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -42,8 +52,3 @@ width: 100vw;
 .scale-down {object-fit: scale-down;}
 .none {object-fit: none;}
 
-img{
-  margin-top: 30px;
-  width:200px;
-  height:300px;
-}
