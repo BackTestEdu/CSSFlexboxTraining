@@ -2,22 +2,26 @@ body{
 font-family: "Jura", sans-serif;
 background: linear-gradient(180deg, #154580 0%, #041833 100%);
 color: white;
-height: 100vh;
-width: 100vw;
+height: 200vh;
+width: 200vw;
 }
 
 h2{
   font-size: x-large;
-  margin-top: 30px;
-}
-p{
+  justify-self: center;
   margin: 10px;
 }
+
+p{
+  margin: 10px;
+  min-width: 15px;
+}
+
 img{
-  margin-top: 30px;
   width: 140px;
   height: 140px;
-  background: lightblue
+  background: lightblue;
+  margin-top: 20px;
 }
 
 .titulo {
@@ -32,18 +36,20 @@ img{
 .foto__comparativa{
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-basis: calc(10% - 150px);
   padding: 10px;
+  flex-grow: 5;
 }
 .fotos__propriedade{
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-basis: calc(80% - 1px);
   padding: 10px;
+  flex-shrink: 5;
 }
 .fotos__container{
   width: 100%;
-  max-width: 1250px;   
+  max-width: 1250px;
   position: absolute;
   left: 176px;
   top: 150px;
@@ -51,8 +57,7 @@ img{
   border-radius: 10px;
   display: flex;
   background: #525c63d8;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
