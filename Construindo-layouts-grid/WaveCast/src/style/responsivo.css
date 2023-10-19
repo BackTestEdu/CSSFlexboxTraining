@@ -17,7 +17,7 @@
     .navbar {
         display: block;
     }   
-
+    
     .secao-horizontal .cartao__imagem {
         height: 4.58rem;
     }
@@ -48,7 +48,9 @@
     .navbar {
         display: none;
     }
-
+    .menu-lateral{
+        width: 208px;
+    }
     .secao-horizontal .cartao__imagem {
         height: 73px;
     }
@@ -74,5 +76,7 @@
     .cabecalho__logo {
         display: none;
     }
-
+    .menu-lateral{
+        width: 228px;
+    }
 }
