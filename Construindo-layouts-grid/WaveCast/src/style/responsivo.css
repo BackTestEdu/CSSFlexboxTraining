@@ -35,13 +35,15 @@
 
 }
 
+/* TABLET */
+
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
 
     .container {
         padding-left: 1.25rem;
         padding-right: 1.25rem;
     }
-
+   
     .cabecalho .cabecalho__logo,
     .cabecalho__botao__avancar {
         display: none;
