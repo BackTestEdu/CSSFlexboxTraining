@@ -11,5 +11,4 @@
 .secao-horizontal .secao__cartoes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(80%/2, max(350px, 80%/3)), 1fr));
-
 }
