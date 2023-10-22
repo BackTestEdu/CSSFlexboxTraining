@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveCast</title>
+    <link rel="shortcut icon" href="./src/imagens/Logos/Favicon.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style/grid/index.css">
+    <link rel="stylesheet" href="./src/style/grid/menu.css">
+    <link rel="stylesheet" href="./src/style/grid/secao.css">
+    <link rel="stylesheet" href="./src/style/grid/cartao.css">
+    <link rel="stylesheet" href="./src/style/base.css">
+    <link rel="stylesheet" href="./src/style/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho container">
+        <a href="#"><img class="cabecalho__logo" src="./src/imagens/Logos/CastWave_logo.svg" alt="Logo da WaveCast"></a>
+        <button class="cabecalho__botao"><img src="./src/imagens/Icones/seta-voltar.svg" alt="Seta voltar"></button>
+        <button class="cabecalho__botao cabecalho__botao__avancar"><img src="./src/imagens/Icones/seta-avancar.svg" alt="Seta avançar"></button>
+    </header>
+    
+    <aside class="menu-lateral">
+        <a href="#" class="menu-lateral__logo"><img src="./src/imagens/Logos/CastWave_logo.svg" alt="Logo da CastWave"></a>
+        <nav>
+            <ul>
+                <li class="menu-lateral__link ativo"><button aria-label="Botão acessar home"><img src="./src/imagens/Icones/home_.svg" alt="Logo do Home">Home</button></li>
+                <li class="menu-lateral__link"><button aria-label="Botão acessar campo de busca"><img src="./src/imagens/Icones/search-branco.svg" alt="Logo do botão de busca">Busca</button></li>
+                <li class="menu-lateral__link"><button aria-label="Botão acessar sua biblioteca"><img src="./src/imagens/Icones/bookmark-branco.svg" alt="Logo do botão sua biblioteca">Sua Biblioteca</button></li>
+                <li class="menu-lateral__link"><a href="#">Curso CSS: Flexbox e layouts responsivos</a></li>
+                <li class="menu-lateral__link"><a href="#">Curso SASS: CSS sintaticamente espetacular</a></li>
+                <li class="menu-lateral__link"><a href="#">Curso Tailwind CSS: estilizando a sua página com classes utilitárias</a></li>
+                <li class="menu-lateral__link"><a href="#">Curso Praticando CSS: Grid e Flexbox</a></li>
+            </ul>
+        </nav>
+        <h3 class="menu-lateral__playlist">PLAYLISTS</h3>
+        <ul>
+            <li class="menu-lateral__link"><button aria-label="Botão criar playlist"><img src="./src/imagens/Icones/add-box-branco.svg" alt="Logo do botão criar playlist">Criar Playlist</button></li>
+            <li class="menu-lateral__link"><button aria-label="Botão podcasts salvos"><img src="./src/imagens/Icones/stars-branco.svg" alt="Logo do botão Podcasts salvos">Podcasts salvos</button></li>
+        </ul>
+    </aside>
+    
+    <main class="principal container">
+        <!-- Seção de cursos e artigos aqui -->
+    </main>
+    
+    <div class="navbar">
+        <ul class="navbar__items">
+            <li class="navbar__item navbar__item--home"><form action="."><button aria-label="Botão acessar Home"><img src="./src/imagens/Icones/home-branco.svg" alt="Logo do botão acessar Home">Home</button></form></li>
+            <li class="navbar__item navbar__item--busca"><form action="."><button aria-label="Botão acessar campo de busca"><img src="./src/imagens/Icones/search-branco.svg" alt="Logo do botão acessar campo de busca">Busca</button></form></li>
+            <li class="navbar__item navbar__item--biblioteca"><form action="."><button aria-label="Botão acessar sua biblioteca"><img src="./src/imagens/Icones/bookmark-branco.svg" alt="Logo do botão acessar sua biblioteca">Sua Biblioteca</button></form></li>
+        </ul>
+    </div>
+    
+</body>
+
+</html>
