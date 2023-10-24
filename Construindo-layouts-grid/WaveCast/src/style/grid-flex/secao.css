@@ -28,5 +28,8 @@
 .secao-vertical .secao__cartoes .cartao a{
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100%;   
+}
+.secao-vertical .secao__cartoes .cartao__titulo{
+    flex-grow: 1;
 }
