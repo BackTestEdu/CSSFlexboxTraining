@@ -12,3 +12,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(80%/2, max(350px, 80%/3)), 1fr));
 }
+
+.secao-vertical{
+    grid-template-columns: 1fr auto;
+}
