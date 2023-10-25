@@ -9,3 +9,8 @@
     align-items: center;
     row-gap: .4rem;
 }
+
+.menu-lateral__link button{
+    display: flex;
+    align-items: center;
+}
