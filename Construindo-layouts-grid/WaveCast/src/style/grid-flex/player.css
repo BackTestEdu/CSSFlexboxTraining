@@ -1,0 +1,6 @@
+.secao-player{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-grow: 1;
+}
