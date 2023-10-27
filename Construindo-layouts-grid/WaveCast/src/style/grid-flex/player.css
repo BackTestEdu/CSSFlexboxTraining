@@ -2,10 +2,30 @@
     display: grid;
     grid-area: 1 / 1 / 3 / 3;
     row-gap: 2rem;
+    grid-template-columns: 1fr 5fr 1fr;
 }
 .player_descricao{
-}
 
+}
+.player_temporizador{
+    align-self: center; 
+}
+.player_temporizador-botoes{
+    display: grid;
+    grid-template-columns: 20% repeat(4, 5rem);
+    align-items: center;
+    height: fit-content;
+    width: max-content;
+}
+.player_temporizador-cronometro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.player_temporizador-cronometro_tempo{
+    width: 20%;
+    background-color: rgb(114, 114, 114);
+}
 .player_volume{
     display: flex;
     flex-direction: row;
