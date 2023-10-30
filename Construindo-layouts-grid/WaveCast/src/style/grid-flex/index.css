@@ -2,10 +2,14 @@ body{
     display: grid;
     grid-template-areas: 
     "aside header"
-    "aside main";
+    "aside main"
+    "footer footer";
     grid-template-columns: auto 1fr; /* Ela vai ajustar toda largura  disponivel dentro dessa fração*/
 }
 
+footer{
+    grid-area: footer;
+}
 .cabecalho{
     grid-area: header;
 }

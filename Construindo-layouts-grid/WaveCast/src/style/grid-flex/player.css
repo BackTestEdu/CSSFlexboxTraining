@@ -1,13 +1,12 @@
 .footer{
-    width: 100%;
+    width: auto;
     display: flex;
     background-color: #042450;
 }
 .secao-player{
     display: grid;
-    grid-area: 1 / 1 / 1 / 3;
     row-gap: 2rem;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     padding: 2%;
 }
 .player_temporizador{
@@ -20,6 +19,7 @@
     grid-template-areas: "ima 2"
     "ima 3";
     align-self: center;
+    
 }
 .player_descricao img{
     grid-area: ima;
