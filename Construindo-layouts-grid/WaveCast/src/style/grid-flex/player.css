@@ -16,7 +16,7 @@ button {
     display: grid;
     row-gap: 2rem;
     grid-template-columns: 1fr 3fr 1fr;
-    padding: s%;
+    padding: 2%;
 }
 .player_temporizador{
     display: flex;
@@ -43,7 +43,8 @@ button {
 .player_temporizador-cronometro{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: .5rem;
 }
 .player_temporizador-cronometro_tempo{
     justify-self: center;
@@ -59,6 +60,7 @@ button {
 }
 
 .player_volume_nivel {
+    margin-top: 2rem;
     width: 70%;
     height: 0.25rem;
     background: white;
