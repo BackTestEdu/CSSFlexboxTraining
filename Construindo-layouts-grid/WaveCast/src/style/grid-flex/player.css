@@ -50,9 +50,10 @@ button {
     width: 100%;
     background-color: white;
     border-radius: .5rem;
+    height: 0.25rem;
+    margin-top: .35rem;
 }
 .player_volume{
-    
     display: flex;
     flex-direction: row;
     gap: 2rem;
