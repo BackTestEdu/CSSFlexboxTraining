@@ -3,9 +3,21 @@ body{
     grid-template-areas: 
     "aside header"
     "aside main"
-    "footer footer";
+    "aside footer";
     grid-template-columns: auto 1fr; /* Ela vai ajustar toda largura  disponivel dentro dessa fração*/
 }
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+    body{
+        display: grid;
+        grid-template-areas: 
+        "aside header"
+        "aside main"
+        "footer footer";
+        grid-template-columns: auto 1fr; /* Ela vai ajustar toda largura  disponivel dentro dessa fração*/
+    }
+}
+
 
 footer{
     grid-area: footer;
