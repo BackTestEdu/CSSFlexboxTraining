@@ -16,7 +16,7 @@ button {
     display: grid;
     row-gap: 2rem;
     grid-template-columns: 1fr 3fr 1fr;
-    padding: 2%;
+    padding: s%;
 }
 .player_temporizador{
     display: flex;
@@ -52,7 +52,15 @@ button {
     border-radius: .5rem;
 }
 .player_volume{
+    
     display: flex;
     flex-direction: row;
     gap: 2rem;
+}
+
+.player_volume_nivel {
+    width: 70%;
+    height: 0.25rem;
+    background: white;
+    border-radius: .5rem;
 }
