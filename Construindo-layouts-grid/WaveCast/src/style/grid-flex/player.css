@@ -1,3 +1,12 @@
+button {
+    background: transparent;
+    border: none;
+    color: inherit;
+    padding: 0rem;
+    font-size: inherit;
+    cursor: pointer;
+}
+
 .footer{
     width: auto;
     display: flex;
@@ -38,8 +47,9 @@
 }
 .player_temporizador-cronometro_tempo{
     justify-self: center;
-    width: 50%;
-    background-color: rgb(114, 114, 114);
+    width: 100%;
+    background-color: white;
+    border-radius: .5rem;
 }
 .player_volume{
     display: flex;
