@@ -6,8 +6,8 @@ button {
     font-size: inherit;
     cursor: pointer;
 }
-.footer{
-    display: flex;
+footer{
+    
     background-color: #042450;
 }
 .secao-player{
