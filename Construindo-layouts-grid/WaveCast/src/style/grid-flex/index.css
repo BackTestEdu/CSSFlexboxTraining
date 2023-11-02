@@ -6,6 +6,7 @@ body{
     "aside footer";
     grid-template-columns: auto 1fr; /* Ela vai ajustar toda largura  disponivel dentro dessa fração*/
 }
+
 /* Tablet */
 @media only screen and (max-width: 1023px) {
     body{

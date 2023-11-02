@@ -14,20 +14,21 @@ button {
 .secao-player{
     display: grid;
     row-gap: 2rem;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 0.3fr auto 0.3fr;
     padding: 2%;
 }
 .player_temporizador{
     display: flex;
     flex-direction: column;
     justify-self: center;
+    width: 50vw;
 }
 .player_descricao{
     display: grid;
     grid-template-areas: "ima 2"
     "ima 3";
     align-self: center;
-    
+
 }
 .player_descricao img{
     grid-area: ima;
@@ -38,6 +39,7 @@ button {
     align-items: center;
     height: fit-content;
     width: max-content;
+    align-self: center;
 }
 .player_temporizador-cronometro{
     display: flex;
