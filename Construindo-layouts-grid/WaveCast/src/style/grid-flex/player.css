@@ -6,7 +6,6 @@ button {
     font-size: inherit;
     cursor: pointer;
 }
-
 .footer{
     display: flex;
     background-color: #042450;
@@ -28,10 +27,12 @@ button {
     grid-template-areas: "ima 2"
     "ima 3";
     align-self: center;
+    gap: .5rem;
 
 }
 .player_descricao img{
     grid-area: ima;
+    object-fit: scale-down;
 }
 .player_temporizador-botoes{
     display: grid;
@@ -58,12 +59,17 @@ button {
 .player_volume{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
+    width: 10vw;
+    align-self: center;
+    align-items: center;
+}
+.player_volume button{
+    height: fit-content;
 }
 
 .player_volume_nivel {
-    margin-top: 2rem;
-    width: 70%;
+    width: 15vw;
     height: 0.25rem;
     background: white;
     border-radius: .5rem;
