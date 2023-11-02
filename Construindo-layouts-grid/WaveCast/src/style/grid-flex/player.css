@@ -6,8 +6,9 @@ button {
     font-size: inherit;
     cursor: pointer;
 }
+
 footer{
-    
+    border-radius: .8rem;
     background-color: #042450;
 }
 .secao-player{
