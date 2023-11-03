@@ -6,35 +6,51 @@ body {
     gap: 2rem;
 }
 
-header{
+header {
     grid-area: menu;
 }
 
-main{
-  grid-area: main;
-  display: grid;
-  grid-template-areas:"curso artigo";
-  justify-content: space-evenly;
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: "curso artigo";
+    justify-content: space-evenly;
 }
 
-ul, li{
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+ul,
+li {
     padding: .3rem;
 }
-.artigos{
+
+a{
+    padding-left: 1rem;
+    
+}
+    
+.artigos {
     grid-area: artigo;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
-.cursos{
+.cursos {
     grid-area: curso;
 }
 
-.artigos{
+.artigos {
     grid-area: artigo;
 }
-.rodape__container{
+
+.rodape__container {
     grid-area: footer;
 }
