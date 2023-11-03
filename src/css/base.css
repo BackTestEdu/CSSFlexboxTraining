@@ -21,7 +21,8 @@ button {
     --cinza-claro: #999;
     --cinza-escuro: #666;
     --cinza: rgba(196, 196, 196, 0.2);
-    --gradiente: linear-gradient(53deg, #072041 0%, #041833 50%, #154580 100%);
+    --gradiente: linear-gradient(180deg, #072041 0%, #041833 50%, #154580 100%);
+    height: 100vh;
 }
 
 * {

@@ -4,8 +4,8 @@ body {
         "main main main main"
         "footer footer footer footer";
     gap: 2rem;
-    
 }
+
 header{
     grid-area: menu;
 }
@@ -17,9 +17,15 @@ main{
   justify-content: space-evenly;
 }
 
+ul, li{
+    padding: .3rem;
+}
 .artigos{
-    
     grid-area: artigo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .cursos{
