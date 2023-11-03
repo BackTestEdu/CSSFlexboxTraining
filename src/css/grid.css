@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    grid-template-areas: "menu menu menu menu"
+        "main main main main"
+        "footer footer footer footer";
+    gap: 2rem;
+    
+}
+header{
+    grid-area: menu;
+}
+
+main{
+  grid-area: main;
+  display: grid;
+  grid-template-areas:"curso artigo";
+  justify-content: space-evenly;
+}
+
+.artigos{
+    
+    grid-area: artigo;
+}
+
+.cursos{
+    grid-area: curso;
+}
+
+.artigos{
+    grid-area: artigo;
+}
+.rodape__container{
+    grid-area: footer;
+}

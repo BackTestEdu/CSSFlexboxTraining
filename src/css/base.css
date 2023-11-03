@@ -32,11 +32,6 @@ body {
     color: var(--cor-texto-principal);
     background: var(--gradiente);
     font-family: var(--fonte-textos);
-    display: grid;
-    grid-template-areas: "menu menu menu menu"
-    "artigo artigo curso curso"
-    "footer  footer footer footer";
-    
 }
 
 main {
