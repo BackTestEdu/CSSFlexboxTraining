@@ -22,7 +22,9 @@ ul {
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-   
+    background-color: #39BEFA;
+    border-radius: 1rem;
+    margin-top: 0.3rem;
 }
 
 ul,
