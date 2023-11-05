@@ -25,7 +25,7 @@ ul {
     flex-wrap: nowrap;
     background-color: #39BEFA;
     border-radius: 0.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.8rem;
 }
 li{
     display: flex;
@@ -41,7 +41,7 @@ li {
     grid-area: artigo;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 
 }
 
@@ -51,6 +51,7 @@ li {
 
 .artigos {
     grid-area: artigo;
+    
 }
 
 .rodape__container {
