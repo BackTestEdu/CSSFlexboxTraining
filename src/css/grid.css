@@ -24,10 +24,14 @@ ul {
     justify-content: space-evenly;
     flex-wrap: nowrap;
     background-color: #39BEFA;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin-top: 0.3rem;
 }
-
+li{
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+}
 ul,
 li {
     padding: .3rem;
@@ -53,5 +57,5 @@ li {
     grid-area: footer;
 }
 p {
-    padding-left: 1rem; 
+    padding: 0.9rem; 
 }
