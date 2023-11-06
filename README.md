@@ -1,32 +1,19 @@
-# Projeto CSS
+## Readme ficticio:
 
-Este projeto tem como objetivo criar um site responsivo, que funcione de maneira eficaz em dispositivos móveis, tablets e desktops. A responsividade é fundamental para garantir uma experiência de usuário consistente em diferentes tamanhos de tela.
+# Projeto Alura Play - Site Responsivo com flexbox
 
-##
+Este projeto tem como objetivo criar um site responsivo para o Alura Play, que funcione de maneira eficaz em dispositivos móveis, tablets e desktops. A responsividade é fundamental para garantir uma experiência de usuário consistente em diferentes tamanhos de tela.
 
-### Layouts com Grid e Flexbox
+## Visão Geral
 
-Neste primeiro passo, você aprenderá como construir páginas com as melhores práticas do mercado, conhecendo conceitos de mobile-first e responsividade. Você aprenderá como criar layouts em celulares, tablets e dispositivos desktop em uma página por meio de linhas e colunas utilizando Flexbox e CSS Grid Layout. Também entenderá unidades de medidas mais usadas, como dimensionar a altura das linhas e a largura das colunas, como espaçar e alinhar elementos, além da importante adaptação da responsividade com minmax() e flex-grow.
+O site Alura Play é uma plataforma de ensino online que oferece cursos de alta qualidade em diversas áreas, como programação, design, negócios e muito mais. O objetivo deste projeto é garantir que os usuários tenham acesso ao conteúdo de forma otimizada em qualquer dispositivo.
 
-- [Artigo CSS: o que é, como usar no HTML e um Guia para iniciar | Alura](#)
-- [Artigo Flexbox CSS: guia completo, elementos e exemplos | Alura](#)
-- [Curso CSS: Flexbox e layouts responsivos](#)
-- [Artigo CSS Object-fit: trabalhando com proporções | Alura](#)
-- [Alura+ CSS FlexBox: distribua elementos de forma responsiva](#)
-- [Curso CSS: construindo layouts com Grid](#)
+## Funcionalidades
 
-### Passo 2: SaSS e Tailwind
-
-No segundo passo, você evoluirá ainda mais em suas habilidades com estilos! Com o framework de CSS Tailwind, você aplicará conceitos de estilização, posicionamento, alinhamento de elementos e adaptação a responsividade de uma página HTML de uma maneira muito mais ágil com as classes utilitárias. Além disso, trabalhará com o compilador mais utilizado do mercado! Com o SaSS, você estará apto a utilizar variáveis, funções, mixins e muito mais com uma sintaxe totalmente compatível com CSS.
-
-- [Curso SASS: CSS sintaticamente espetacular](#)
-- [Curso Tailwind CSS: estilizando a sua página com classes utilitárias](#)
-
-### Passo 3: Grid e Flexbox na prática
-
-Agora que você já mergulhou em todos os cursos dessa formação de CSS: Estilos, você reunirá os seus conhecimentos em Flexbox e Grid em um projeto com os cenários ideais, compatíveis com essas duas abordagens.
-
-- [Curso Praticando CSS: Grid e Flexbox](#)
+- **Layout responsivo:** O site se ajusta automaticamente ao tamanho da tela do dispositivo, proporcionando uma experiência de usuário consistente.
+- **Navegação intuitiva:** Os menus e a estrutura de navegação são projetados de forma a facilitar a exploração do conteúdo em diferentes dispositivos.
+- **Conteúdo adaptado:** O conteúdo dos cursos, vídeos e recursos é apresentado de forma adaptada para dispositivos móveis, tablets e desktops.
+- **Performance otimizada:** O site é otimizado para carregar rapidamente em todas as plataformas, garantindo uma experiência sem interrupções.
 
 ## Tecnologias Utilizadas
 
@@ -60,3 +47,4 @@ Se você deseja contribuir para o desenvolvimento deste projeto, siga os passos 
 ## Contato
 
 Para mais informações ou dúvidas sobre o projeto, entre em contato conosco em [backtestedu@gmail.com](mailto:backtestedu@gmail.com).
+
