@@ -1,0 +1,18 @@
+p{
+    transition: color 0.3s;
+}
+
+p:hover{
+    color:#154580;
+}
+
+
+.desafios img{
+    transition: filter 0.3s;
+}
+
+
+.desafios img:hover{
+     filter: hue-rotate(200deg);
+     color: rgba(21, 69, 128, 0.5);
+} 
