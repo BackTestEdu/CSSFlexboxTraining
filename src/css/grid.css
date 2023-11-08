@@ -28,7 +28,7 @@ p img{
 }
 p {
     padding: 0.9rem; 
-  
+    flex-wrap: wrap;
 }
 
 span{
@@ -70,6 +70,8 @@ li{
 .rodape__container {
     grid-area: footer;
 }
-.desafios{
-    
+
+span .desafio-descricao{
+    display: flex;
+    flex-direction: column;
 }
