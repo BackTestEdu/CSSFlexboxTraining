@@ -1,4 +1,5 @@
 function resposta(resposta) {
+    let descricao = document.getElementsByClassName('descricao')[0];
     switch (resposta) {
         case "A":
             btnReset();
@@ -10,7 +11,6 @@ function resposta(resposta) {
             document.querySelector('.lateral').style.gridArea = 'aside';
             document.querySelector('.principal').style.gridArea = 'main';
             document.querySelector('.descricao').style.color = 'green';
-            var descricao = document.getElementsByClassName('descricao')[0];
             descricao.innerHTML = "Alternativa correta!";
            
             break;
@@ -23,7 +23,6 @@ function resposta(resposta) {
             document.querySelector('.lateral').style.gridArea = 'lateral';
             document.querySelector('.principal').style.gridArea = 'principal';
             document.querySelector('.descricao').style.color = 'red';
-            var descricao = document.getElementsByClassName('descricao')[0];
             descricao.innerHTML = "Pense mais um pouco! O valor passado para as classes deve sempre ser correspondente aos valores passados na propriedade grid-template-areas.";
             break;
         case "C":
@@ -38,7 +37,6 @@ function resposta(resposta) {
             document.querySelector('.lateral').style.display ='grid';
             document.querySelector('.principal').style.gridArea = 'main';
             document.querySelector('.descricao').style.color = 'red';
-            var descricao = document.getElementsByClassName('descricao')[0];
             descricao.innerHTML = "Pense mais um pouco! O valor passado para as classes deve sempre ser correspondente aos valores passados na propriedade grid-template-areas.";
             break;
         case "D":
@@ -50,7 +48,6 @@ function resposta(resposta) {
             document.querySelector('.lateral').style.gridArea = 'aside';
             document.querySelector('.principal').style.gridArea = 'main';
             document.querySelector('.descricao').style.color = 'red';
-            var descricao = document.getElementsByClassName('descricao')[0];
             descricao.innerHTML = "Pense mais um pouco! A propriedade grid-template-columns é utilizada para criar colunas, e não uma grade de linhas e colunas. ";
             break;
 
