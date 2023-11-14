@@ -1,6 +1,9 @@
 function resposta(resposta) {
     switch (resposta) {
         case "A":
+            btnReset();
+            document.getElementsByTagName('button')[0].style.color = 'lightgreen';
+            
             document.body.style.display = 'grid';
             document.body.style.gridTemplateAreas = '"header header" "main aside"';
             document.querySelector('.cabecalho').style.gridArea = 'header';
@@ -12,6 +15,8 @@ function resposta(resposta) {
            
             break;
         case "B":
+            btnReset();
+            document.getElementsByTagName('button')[1].style.color = 'red';
             document.body.style.display = 'grid';
             document.body.style.gridTemplateAreas = '"header header" "main aside"';
             document.querySelector('.cabecalho').style.gridArea = 'cabecalho';
@@ -20,80 +25,42 @@ function resposta(resposta) {
             document.querySelector('.descricao').style.color = 'red';
             var descricao = document.getElementsByClassName('descricao')[0];
             descricao.innerHTML = "Pense mais um pouco! O valor passado para as classes deve sempre ser correspondente aos valores passados na propriedade grid-template-areas.";
-           
-
-            // body {
-            //     display: grid;
-            //     grid-template-areas: 
-            //     "header header"
-            //     "main aside";
-            // }
-            
-            // .cabecalho {     
-            //     grid-area: cabecalho;
-            // }
-            
-            // .lateral { 
-            //     grid-area: lateral;
-            // }
-            
-            // .principal { 
-            //     grid-area: principal;
             break;
         case "C":
+            btnReset();
+            document.getElementsByTagName('button')[2].style.color = 'red';
             document.body.style.display = 'grid';
-            document.body.style.gridTemplateAreas = '"header header" "main aside"';
+            document.body.style.gridTemplateAreas = '"aside aside" "main header"';
+            document.querySelector('.cabecalho').style.display ='grid';
             document.querySelector('.cabecalho').style.gridArea = 'header';
+            document.querySelector('.lateral').style.display ='grid';
             document.querySelector('.lateral').style.gridArea = 'aside';
+            document.querySelector('.lateral').style.display ='grid';
             document.querySelector('.principal').style.gridArea = 'main';
-            // body {
-            //     grid-template-areas: 
-            //     "aside aside"
-            //     "main header";
-            // }
-            
-            // .cabecalho {     
-            //     display: grid;
-            //     grid-area: header;
-            // }
-            
-            // .lateral { 
-            //     display: grid;
-            //     grid-area: aside;
-            // }
-            
-            // .principal { 
-            //     display: grid;
-            //     grid-area: main;
-            // }
+            document.querySelector('.descricao').style.color = 'red';
+            var descricao = document.getElementsByClassName('descricao')[0];
+            descricao.innerHTML = "Pense mais um pouco! O valor passado para as classes deve sempre ser correspondente aos valores passados na propriedade grid-template-areas.";
             break;
         case "D":
+            btnReset();
+            document.getElementsByTagName('button')[3].style.color = 'red';
             document.body.style.display = 'grid';
-            document.body.style.gridTemplateAreas = '"header header" "main aside"';
+            document.body.style.gridTemplateAreas = '"cabecalho cabecalho" "principal lateral"';
             document.querySelector('.cabecalho').style.gridArea = 'header';
             document.querySelector('.lateral').style.gridArea = 'aside';
             document.querySelector('.principal').style.gridArea = 'main';
-            // body {
-            //     display: grid;
-            //     grid-template-columns: 
-            //     "cabecalho cabecalho"
-            //     "principal lateral";
-            // }
-            
-            // .cabecalho {     
-            //     grid-area: header;
-            // }
-            
-            // .lateral { 
-            //     grid-area: aside;
-            // }
-            
-            // .principal { 
-            //     grid-area: main;
-            // }
+            document.querySelector('.descricao').style.color = 'red';
+            var descricao = document.getElementsByClassName('descricao')[0];
+            descricao.innerHTML = "Pense mais um pouco! A propriedade grid-template-columns é utilizada para criar colunas, e não uma grade de linhas e colunas. ";
             break;
 
         default:
             break;
+    }
+}
+
+function btnReset(){
+    for (let i = 0; i < 4; i++) {
+        document.getElementsByTagName('button')[i].style.color = 'white';
     }
 }
