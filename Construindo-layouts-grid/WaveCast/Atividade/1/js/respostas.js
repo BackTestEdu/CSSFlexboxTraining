@@ -1,8 +1,7 @@
 function resposta(resposta) {
-    let descricao = document.getElementsByClassName('descricao')[0];
+    let descricao = document.querySelector('.descricao')[0];
     let buttons = document.querySelectorAll('button');
     const acertou = "Alternativa correta!";
-
     btnReset();
 
     switch (resposta) {
