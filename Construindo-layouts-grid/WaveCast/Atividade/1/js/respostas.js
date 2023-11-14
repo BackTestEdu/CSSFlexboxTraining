@@ -4,7 +4,6 @@ function resposta(resposta) {
         case "A":
             btnReset();
             document.getElementsByTagName('button')[0].style.color = 'lightgreen';
-            
             document.body.style.display = 'grid';
             document.body.style.gridTemplateAreas = '"header header" "main aside"';
             document.querySelector('.cabecalho').style.gridArea = 'header';
@@ -57,7 +56,9 @@ function resposta(resposta) {
 }
 
 function btnReset(){
-    for (let i = 0; i < 4; i++) {
-        document.getElementsByTagName('button')[i].style.color = 'white';
+    const buttons = document.querySelectorAll('button');
+
+    for (let i = 0; i < buttons.length && i < 4; i++) {
+        buttons[i].style.color = 'white';
     }
 }
