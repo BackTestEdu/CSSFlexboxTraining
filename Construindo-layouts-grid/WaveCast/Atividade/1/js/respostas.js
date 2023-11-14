@@ -1,5 +1,5 @@
 function resposta(resposta) {
-    let descricao = document.querySelector('.descricao')[0];
+    let descricao = document.querySelector('.descricao');
     let buttons = document.querySelectorAll('button');
     const acertou = "Alternativa correta!";
     btnReset();
@@ -17,7 +17,7 @@ function resposta(resposta) {
 
             break;
         case "B":
-            buttons('button')[1].style.color = 'red';
+            buttons[1].style.color = 'red';
             document.body.style.display = 'grid';
             document.body.style.gridTemplateAreas = '"header header" "main aside"';
             document.querySelector('.cabecalho').style.gridArea = 'cabecalho';
@@ -37,7 +37,7 @@ function resposta(resposta) {
             document.querySelector('.lateral').style.display = 'grid';
             document.querySelector('.principal').style.gridArea = 'main';
             document.querySelector('.descricao').style.color = 'red';
-            descricao.innerHTML = "Pense mais um pouco! O valor passado para as classes deve sempre ser correspondente aos valores passados na propriedade grid-template-areas.";
+            descricao.innerHTML = "Tente outra vez! O display grid deve ser aplicado na tag pai dos itens a serem organizados, e não em cada um deles. ";
             break;
         case "D":
             buttons[3].style.color = 'red';
