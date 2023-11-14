@@ -6,18 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/default.css">
+    <script src="js/respostas.js" defer></script>
     <title>Atividade 1</title>
 </head>
 
 <body>
-    <section class="btn-resposta">
-        <h1>Respostas</h1>
-        <button type="button">A</button><button type="button">B</button><button type="button">C</button><button
-            type="button">D</button>
-    </section>
+    <h1></h1>
     <header class="cabecalho">CONTEÚDO CABEÇALHO</header>
     <aside class="lateral">CONTEÚDO MENU LATERAL</aside>
     <main class="principal">CONTEÚDO PRINCIPAL</main>
+    <section class="btn-resposta">
+
+        <h1>Os estilos seram aplicado na pagina baseado na resposta </h1>
+        <h1>Respostas:</h1>
+
+        </h1>
+        <div class="item-resposta">
+            <button onclick="resposta('A')" type="button">A</button>
+            <pre>
+              <code> body {
+                display: grid;
+                grid-template-areas: 
+                  "header header"
+                  "main aside";
+              }
+              
+              .cabecalho {     
+                grid-area: header;
+              }
+              
+              .lateral { 
+                grid-area: aside;
+              }
+              
+              .principal { 
+                grid-area: main;
+              }
+              </code>
+            </pre>
+        </div>
+
+        <div class="item-resposta">
+            <button onclick="resposta('B')" type="button">B</button>
+            <pre>
+                <code> body {
+                    display: grid;
+                    grid-template-areas: 
+                    "header header"
+                    "main aside";
+                }
+                
+                .cabecalho {     
+                    grid-area: cabecalho;
+                }
+                
+                .lateral { 
+                    grid-area: lateral;
+                }
+                
+                .principal { 
+                    grid-area: principal;
+                }
+                </code>
+              </pre>
+        </div>
+
+        <div class="item-resposta">
+            <button onclick="resposta('C')" type="button">C</button>
+            <pre>
+                <code> body {
+                    grid-template-areas: 
+                    "aside aside"
+                    "main header";
+                }
+                
+                .cabecalho {     
+                    display: grid;
+                    grid-area: header;
+                }
+                
+                .lateral { 
+                    display: grid;
+                    grid-area: aside;
+                }
+                
+                .principal { 
+                    display: grid;
+                    grid-area: main;
+                }
+                </code>
+              </pre>
+        </div>
+
+        <div class="item-resposta">
+
+            <button onclick="resposta('D')" type="button">D</button>
+            <pre>
+                <code>
+                    body {
+                    display: grid;
+                    grid-template-columns: 
+                    "cabecalho cabecalho"
+                    "principal lateral";
+                }
+                
+                .cabecalho {     
+                    grid-area: header;
+                }
+                
+                .lateral { 
+                    grid-area: aside;
+                }
+                
+                .principal { 
+                    grid-area: main;
+                }
+                </code>
+              </pre>
+        </div>
+    </section>
 
 </body>
 

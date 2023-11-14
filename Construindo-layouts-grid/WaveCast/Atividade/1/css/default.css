@@ -1,38 +1,47 @@
-body{
+body {
     font-family: "Jura", sans-serif;
     background: linear-gradient(180deg, #154580 0%, #041833 100%);
     color: white;
     height: 100vh;
     width: 100vw;
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "main aside";
-    }
-    
-    .cabecalho { 
-        grid-area: header;
-    }
-    
-    .lateral { 
-        grid-area: aside;
-    }
-    
-    .principal { 
-        grid-area: main;
-    }
+}
+code{
+    /* background-color: #f4f4f4; */
+    padding: 0.2em 0.4em;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+    font-family: monospace;
+}
+.btn-resposta {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
 
-    .btn-resposta{
-      display: flex;
-      justify-content: center;
-      height: fit-content;
-    }
-    button{
-        font-family: "Jura", sans-serif;
-        background-color: #154580;
-        border-radius: .3rem;
-        box-shadow: none;
-        height: fit-content;
-        padding: .3rem;
-        
-    }
+}
+.item-resposta{
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+}
+.item-resposta button{
+    /* justify-content: center; */
+}
+
+button {
+    font-family: "Jura", sans-serif;
+    background-color: #154580;
+    border-radius: .3rem;
+    box-shadow: none;
+    height: fit-content;
+    width: fit-content;
+    padding: .3rem;
+    
+}
+
+h1 {
+    width: 100%;
+    padding: .5rem;
+}
