@@ -25,7 +25,7 @@ function loadInternalPage(answer) {
 function debug(answer) {
     let description = document.querySelector('.description');
     let buttons = document.querySelectorAll('button');
-    const correct = "Correct answer!";
+    const correct = "Alternativa correta!";
     resetButtons();
 
     switch (answer) {
@@ -33,32 +33,94 @@ function debug(answer) {
             buttons[0].style.color = '#0f0';
             description.innerHTML = correct;
             return `
-            code {
-                color:#0f0;
+            body {
+                display: grid;
+                grid-template-areas: 
+                "header header"
+                "main aside";
+                }
+                
+                .cabecalho {     
+                grid-area: header;
+                }
+                
+                .lateral { 
+                grid-area: aside;
+                }
+                
+                .principal { 
+                grid-area: main;
                 }
         `;
         case "B":
             buttons[1].style.color = 'red';
-            description.innerHTML = "Python with syntax error!";
+            description.innerHTML = "Pense mais um pouco! O valor passado para as classes deve sempre ser correspondente aos valores passados na propriedade grid-template-areas."
             return `
-            code {
-                color:#f00;
+            body {
+                display: grid;
+                grid-template-areas: 
+                "header header"
+                "main aside";
+                }
+                
+                .cabecalho { 
+                grid-area: cabecalho;
+                }
+                
+                .lateral { 
+                grid-area: lateral;
+                }
+                
+                .principal { 
+                grid-area: principal;
                 }
         `;
         case "C":
             buttons[2].style.color = 'red';
-            description.innerHTML = "Python with variable not defined!";
+            description.innerHTML = "Tente outra vez! O display grid deve ser aplicado na tag pai dos itens a serem organizados, e não em cada um deles. ";
             return `
-            code {
-                color:#d00;
+            body {
+                grid-template-areas: 
+                "aside aside"
+                "main header";
+                }
+                                
+                .cabecalho {     
+                display: grid;
+                grid-area: header;
+                }
+                
+                .lateral { 
+                display: grid;
+                grid-area: aside;
+                }
+                                
+                .principal { 
+                display: grid;
+                 grid-area: main;
                 }
         `;
         case "D":
             buttons[3].style.color = 'red';
-            description.innerHTML = "Python without parentheses!";
+            description.innerHTML = "Pense mais um pouco! A propriedade grid-template-columns é utilizada para criar colunas, e não uma grade de linhas e colunas. ";
             return `
-            code {
-                color:#a00;
+            body {
+                display: grid;
+                grid-template-columns: 
+                "cabecalho cabecalho"
+                "principal lateral";
+                }
+                
+                .cabecalho {     
+                grid-area: header;
+                }
+                
+                .lateral { 
+                grid-area: aside;
+                }
+                
+                .principal { 
+                grid-area: main;
                 }
         `;
 
