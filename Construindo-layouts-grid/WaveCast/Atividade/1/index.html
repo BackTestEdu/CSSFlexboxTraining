@@ -4,28 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/default.css">
-    <script src="js/respostas.js" defer></script>
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/default.css">
+    <link rel="stylesheet" href="assets/styles/questions.css" >
+    <script src="assets/scripts/answers.js" ></script>
+
     <title>Atividade 1</title>
 </head>
 
 <body>
-    <header class="cabecalho">CONTEÚDO CABEÇALHO</header>
-    <aside class="lateral">CONTEÚDO MENU LATERAL</aside>
-    <main class="principal">CONTEÚDO PRINCIPAL</main>
-
-    <section class="container-resposta">
+    
+    <div class="container-code">
+        <h1>Enunciado:</h1>
+        <iframe id="container-test" src="assets/pages/pagina-interna.html" frameborder="0"></iframe>
+    </div>
+    <section class="container-answer">
 
         <h1>Os estilos seram aplicado na pagina baseado na resposta OBS: mesmo quebrando (duh! é uma arternativa errada)
         </h1>
         <h1>Respostas:</h1>
-        <h1 class="descricao"></h1>
+        <h1 class="description"></h1>
         </h1>
-        <div class="item-resposta">
-            <button onclick="resposta('A')" type="button">A</button>
+        <div class="item-answer">
+            <button onclick="loadInternalPage('A')" type="button">A</button>
             <pre>
-              <code> 
+                <code>
 body {
 display: grid;
 grid-template-areas: 
@@ -44,15 +47,14 @@ grid-area: aside;
 .principal { 
 grid-area: main;
 }
-              </code>
-            </pre>
-
+                </code>
+              </pre>
         </div>
 
-        <div class="item-resposta">
-            <button onclick="resposta('B')" type="button">B</button>
+        <div class="item-answer">
+            <button onclick="loadInternalPage('B')" type="button">B</button>
             <pre>
-                <code> 
+                <code>
 body {
 display: grid;
 grid-template-areas: 
@@ -75,10 +77,10 @@ grid-area: principal;
               </pre>
         </div>
 
-        <div class="item-resposta">
-            <button onclick="resposta('C')" type="button">C</button>
+        <div class="item-answer">
+            <button onclick="loadInternalPage('C')" type="button">C</button>
             <pre>
-                <code> 
+                <code>
 body {
 grid-template-areas: 
 "aside aside"
@@ -97,15 +99,15 @@ grid-area: aside;
                 
 .principal { 
 display: grid;
- grid-area: main;
+    grid-area: main;
 }
                 </code>
               </pre>
         </div>
 
-        <div class="item-resposta">
+        <div class="item-answer">
 
-            <button onclick="resposta('D')" type="button">D</button>
+            <button onclick="loadInternalPage('D')" type="button">D</button>
             <pre>
                 <code>
 body {
@@ -128,6 +130,7 @@ grid-area: main;
 }
                 </code>
               </pre>
+
         </div>
     </section>
 
