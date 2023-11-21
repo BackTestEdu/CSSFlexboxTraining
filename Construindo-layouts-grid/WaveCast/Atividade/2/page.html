@@ -10,33 +10,36 @@
     <link rel="icon" href="/assets/images/favtask.ico" type="image/x-icon">
     <script src="assets/scripts/answers.js"></script>
 
-    <title>Exercise 1</title>
+    <title>Atividade 2</title>
 </head>
 
 <body>
 
     <div class="container-code">
         <h1>Você está remodelando o site de uma loja. O cliente pediu para você criar uma seção de um site onde todas as imagens devem ser alinhadas à parte inferior das células do grid, de maneira que, independentemente da altura da célula, as imagens sempre apareçam no final. Seu código-base inicial é o seguinte:</h1>
-        <pre><code><xmp><h1>Simulation hello World</h1>
-    
-    print("Hello, World!")
+        <pre><code><xmp>
+        .secao-imagens {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            max-height: 150px ;
+        }
 </xmp>
 </code></pre>
-        <iframe id="container-test" src="assets/pages/internal-page.html" frameborder="0"></iframe>
+        <iframe id="container-test" src="assets/pages/internal-page.html" frameborder="0" ></iframe>
     </div>
     <section class="container-answer">
 
-        <h1>The styles will be applied to the page based on the response, even if it breaks (duh! it's a wrong
-            alternative)
+        <h1>Estilos serão aplicados, mesmo que quebre
         </h1>
-        <h1>Answers</h1>
+        <h1>Respostas</h1>
         <h1 class="description"></h1>
         </h1>
         <div class="item-answer">
             <button onclick="loadInternalPage('A')" type="button">A</button>
             <pre>
                 <code>
-print("Hello, World!")
+                    align-items: start;
                 </code>
               </pre>
         </div>
@@ -45,7 +48,7 @@ print("Hello, World!")
             <button onclick="loadInternalPage('B')" type="button">B</button>
             <pre>
                 <code>
-print("Hello, World!"
+                    align-items: end;
                 </code>
               </pre>
         </div>
@@ -54,8 +57,7 @@ print("Hello, World!"
             <button onclick="loadInternalPage('C')" type="button">C</button>
             <pre>
                 <code>
-message = "Hello, World!"
-print(mesage)
+                    align-items: stretch;
                 </code>
               </pre>
         </div>
@@ -65,7 +67,7 @@ print(mesage)
             <button onclick="loadInternalPage('D')" type="button">D</button>
             <pre>
                 <code>
-print "Hello, World!"
+                    align-items: center;
                 </code>
               </pre>
 
