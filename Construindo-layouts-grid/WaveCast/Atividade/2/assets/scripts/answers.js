@@ -42,7 +42,7 @@ function debug(answer) {
             buttons[1].style.color = '#0f0';
             description.innerHTML = "A propriedade CSS align-items: end; alinha os itens ao final do contêiner na direção do bloco, que é o que nós queremos neste caso.";
             return `
-            .secao-imagens {
+            .secao-imagens, .secao-imagens div img {
                 align-items: end;
             }
         `;
@@ -50,7 +50,7 @@ function debug(answer) {
             buttons[2].style.color = 'red';
             description.innerHTML = "align-items: stretch; esticará os itens para preencher toda a célula na direção do bloco.";
             return `
-            .secao-imagens {
+            .secao-imagens, .secao-imagens div img {
                 align-items: stretch;
             }
         `;
