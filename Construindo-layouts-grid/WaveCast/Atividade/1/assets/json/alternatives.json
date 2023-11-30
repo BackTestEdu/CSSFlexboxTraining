@@ -1,22 +1,22 @@
 {
     "A": {
-        "style": "code { color:#0f0; }",
-        "description": "Correct answer!",
+        "style": "body { display: grid; grid-template-areas: \"header header\" \"main aside\"; } .cabecalho { grid-area: header; } .lateral { grid-area: aside; } .principal { grid-area: main; }",
+        "description": "Alternativa correta!",
         "isCorrect": true
     },
     "B": {
-        "style": "code { color:#f00; }",
-        "description": "Python with syntax error!",
+        "style": "body { display: grid; grid-template-areas: \"header header\" \"main aside\"; } .cabecalho { grid-area: cabecalho; } .lateral { grid-area: lateral; } .principal { grid-area: principal; }",
+        "description": "Pense mais um pouco! O valor passado para as classes deve sempre ser correspondente aos valores passados na propriedade grid-template-areas.",
         "isCorrect": false
     },
     "C": {
-        "style": "code { color:#d00; }",
-        "description": "Python with variable not defined!",
+        "style": "body { grid-template-areas: \"aside aside\" \"main header\"; } .cabecalho { display: grid; grid-area: header; } .lateral { display: grid; grid-area: aside; } .principal { display: grid; grid-area: main; }",
+        "description": "Tente outra vez! O display grid deve ser aplicado na tag pai dos itens a serem organizados, e não em cada um deles.",
         "isCorrect": false
     },
     "D": {
-        "style": "code { color:#a00; }",
-        "description": "Python without parentheses!",
+        "style": "body { display: grid; grid-template-columns: \"cabecalho cabecalho\" \"principal lateral\"; } .cabecalho { grid-area: header; } .lateral { grid-area: aside; } .principal { grid-area: main; }",
+        "description": "Pense mais um pouco! A propriedade grid-template-columns é utilizada para criar colunas, e não uma grade de linhas e colunas.",
         "isCorrect": false
     }
 }

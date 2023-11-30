@@ -1,23 +1,22 @@
 {
     "A": {
-        "style": "code { color:#0f0; }",
-        "description": "Correct answer!",
-        "isCorrect": true
-    },
-    "B": {
-        "style": "code { color:#f00; }",
-        "description": "Python with syntax error!",
+        "style": ".secao-horizontal .secao__cartoes { display: flex; grid-template-columns: repeat(4, 100px); }",
+        "description": "Tente outra vez! No enunciado foi solicitado o uso do CSS Grid para realizar a refatoração (e não CSS Flex). ",
         "isCorrect": false
     },
+    "B": {
+        "style": ".secao-horizontal .secao__cartoes { display: grid; grid-template-columns: repeat(auto-fit, 100px); }",
+        "description": "Unindo o repeat e auto-fit é possível criar um grid dinâmico que aumente ou diminua a quantidade de colunas de acordo com a largura do elemento pai. ",
+        "isCorrect": true
+    },
     "C": {
-        "style": "code { color:#d00; }",
-        "description": "Python with variable not defined!",
+        "style": ".secao-horizontal .secao__cartoes { display: grid; grid-template-columns: repeat(4, 100px); }",
+        "description": "Pense mais um pouco! O uso do repeat auxiliou a não repetir o valor desnecessariamente, entretanto, apenas o seu uso não é suficiente para aplicar responsividade com Grid. ",
         "isCorrect": false
     },
     "D": {
-        "style": "code { color:#a00; }",
-        "description": "Python without parentheses!",
+        "style": ".secao-horizontal .secao__cartoes { display: grid; grid-template-columns: auto-fit(repeat, 100px); }",
+        "description": "Tente outra vez! Os métodos utilizados realmente auxiliam para aplicar responsividade com Grid, contudo, eles estão sendo utilizados de forma errada. ",
         "isCorrect": false
     }
 }
-  

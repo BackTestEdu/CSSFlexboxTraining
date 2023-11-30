@@ -1,23 +1,22 @@
 {
     "A": {
-        "style": "code { color:#0f0; }",
-        "description": "Correct answer!",
-        "isCorrect": true
-    },
-    "B": {
-        "style": "code { color:#f00; }",
-        "description": "Python with syntax error!",
+        "style": ".secao-imagens { align-items: start; }",
+        "description": "align-items: start; faz com que os itens sejam alinhados ao início da célula na direção do bloco.",
         "isCorrect": false
     },
+    "B": {
+        "style": ".secao-imagens { align-items: end; }",
+        "description": "Acertou! A propriedade CSS align-items: end; alinha os itens ao final do contêiner na direção do bloco, que é o que nós queremos neste caso.",
+        "isCorrect": true
+    },
     "C": {
-        "style": "code { color:#d00; }",
-        "description": "Python with variable not defined!",
+        "style": ".secao-imagens { align-items: stretch; }",
+        "description": "align-items: stretch; esticará os itens para preencher toda a célula na direção do bloco.",
         "isCorrect": false
     },
     "D": {
-        "style": "code { color:#a00; }",
-        "description": "Python without parentheses!",
+        "style": ".secao-imagens { align-items: center; }",
+        "description": "align-items: center; centralizará os itens na célula na direção do bloco.",
         "isCorrect": false
     }
 }
-  

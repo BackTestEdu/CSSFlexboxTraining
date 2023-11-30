@@ -1,23 +1,22 @@
 {
     "A": {
-        "style": "code { color:#0f0; }",
-        "description": "Correct answer!",
-        "isCorrect": true
+        "style": ".secao-horizontal .cartao__imagem { grid-area: 2 / 1 / 4 / 1; } .secao-horizontal .cartao__botao { grid-area: 4 / 3 / 3 / 2; } .secao-horizontal .cartao__titulo { grid-area: 3 / 2 / 3 / 2; } .secao-horizontal .cartao__player { grid-area: 3 / 2 / 4 / 3; }",
+        "description": "A posição inicial e final dos itens não está de acordo com a posição definida no código do enunciado. A propriedade grid-area recebe os valores iniciais de linhas e colunas e finais de linhas e colunas respectivamente para definir a posição de um elemento. ",
+        "isCorrect": false
     },
     "B": {
-        "style": "code { color:#f00; }",
-        "description": "Python with syntax error!",
+        "style": ".secao-horizontal .cartao__imagem { grid-area: 4 / 2 / 1 / 1; } .secao-horizontal .cartao__botao { grid-area: 3 / 4 / 2 / 3; } .secao-horizontal .cartao__titulo { grid-area: 3 / 3 / 2 / 2; } .secao-horizontal .cartao__player { grid-area: 4 / 3 / 3 / 2; }",
+        "description": "Tente outra vez! A ordem está invertida, a propriedade grid-area recebe os valores iniciais de linhas e colunas e finais de linhas e colunas respectivamente para definir a posição de um elemento. ",
         "isCorrect": false
     },
     "C": {
-        "style": "code { color:#d00; }",
-        "description": "Python with variable not defined!",
+        "style": ".secao-horizontal .cartao__imagem { grid-area: 1 / 4 / 1 / 2; } .secao-horizontal .cartao__botao { grid-area: 2 / 3 / 3 / 4; } .secao-horizontal .cartao__titulo { grid-area: 2 / 3 / 2 / 3; } .secao-horizontal .cartao__player { grid-area: 3 / 4 / 2 / 3; }",
+        "description": "Pense mais um pouco! A propriedade grid-area recebe os valores iniciais de linhas e colunas e finais de linhas e colunas respectivamente para definir a posição de um elemento. ",
         "isCorrect": false
     },
     "D": {
-        "style": "code { color:#a00; }",
-        "description": "Python without parentheses!",
-        "isCorrect": false
+        "style": ".secao-horizontal .cartao__imagem { grid-area: 1 / 1 / 4 / 2; } .secao-horizontal .cartao__botao { grid-area: 2 / 3 / 3 / 4; } .secao-horizontal .cartao__titulo { grid-area: 2 / 2 / 3 / 3; } .secao-horizontal .cartao__player { grid-area: 3 / 2 / 4 / 3; }",
+        "description": "A substituição dos valores passados nas propriedades grid-row e grid-column para a propriedade grid-area está sendo aplicada corretamente, sendo os dois primeiros valores determinando a posição inicial de linhas e colunas e os dois últimos valores determinando a posição final de linhas e colunas respectivamente. ",
+        "isCorrect": true
     }
 }
-  
