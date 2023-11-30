@@ -1,3 +1,6 @@
+.secao-horizontal {
+    display: grid;
+}
 .secao-horizontal .cartao__imagem {
     grid-row: 1 / 4;
     grid-column: 1 / 2;
