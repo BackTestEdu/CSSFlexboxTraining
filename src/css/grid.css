@@ -15,34 +15,39 @@ main {
     display: grid;
     grid-template-areas: "curso artigo";
     justify-content: space-evenly;
-    
+
 }
 
 ul,
 li {
     padding: .3rem;
 }
-p img{
+
+p img {
     width: 20%;
     height: 20%;
 }
+
 p {
-    padding: 0.9rem; 
+    padding: 0.9rem;
+    padding-top: 0.4rem;
     flex-wrap: wrap;
 }
 
 
-span{
+span {
     display: flex;
     padding: 0;
-    padding-left: 4rem;
+    padding-left: 0.5rem;
 }
+
 ul {
     background-color: #39BEFA;
     border-radius: 0.5rem;
-    margin-top: 0.8rem;   
+    margin-top: 0.8rem;
 }
-li{
+
+li {
     display: flex;
     flex-direction: row;
     gap: .3rem;
@@ -50,7 +55,7 @@ li{
 
 }
 
-    
+
 .artigos {
     grid-area: artigo;
     display: flex;
@@ -74,10 +79,11 @@ li{
     grid-area: footer;
 }
 
-span .desafio-descricao{
+span .desafio-descricao {
     display: flex;
     flex-direction: column;
 }
-.conteudo__container{
+
+.conteudo__container {
     gap: 2rem;
 }
