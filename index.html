@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./src/css/grid.css">
     <link rel="stylesheet" href="./src/css/menu.css">
     <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/default.css">
+
 </head>
 
 <body>
@@ -41,18 +43,11 @@
             <h2>Cursos</h2>
             <ul>
                 <li>
+
                     <img src="https://www.alura.com.br/assets/api/cursos/css-flexbox-layouts-responsivos.svg"
                         alt="ícone CSS: construindo layouts com Grid" class="" width="37.5px" height="37.5px">
-                    <a href="/Alura/Aprofunde-em-estilos/Flexbox-e-layouts/aluraplay-projeto-base/index.html">
+                    <a href="Flexbox-e-layouts/aluraplay-projeto-base/index.html">
                         <p>Curso 1: CSS Flexbox e layouts responsivos</p>
-                        <span class="desafio-descricao">
-                            <p>Desafio 1:</p>
-                            <p>O cliente AluraPlay está desenvolvendo uma segunda tela para o projeto,
-                                contendo logos de várias tecnologias da área de Front-end, e citando seus criadores.
-                            </p>
-                            <p>O cliente pediu para alinhar os itens na horizontal, de forma que fiquem distribuídos
-                                aproveitando toda a largura do seu container. </p>
-                        </span>
                     </a>
 
                 </li>
@@ -108,59 +103,106 @@
                                     escuro, vermelho e azul claro:</p>
 
                                 <p>Imagem de 1000px de largura, com fundo azul escuro, em seu interior contendo quatro
-                                    caixas de mesmo tamanho nas cores laranja, azul escuro, vermelho e azul claro.</p>
-
-                                <p>O layout possui 1000px de largura, e cada item possui 250px de largura.</p>
-
-                                <p>Quando alinhamos os elementos com display: flex, já conseguimos ter o efeito de
+                                    caixas de mesmo tamanho nas cores laranja, azul escuro, vermelho e azul claro.
+                                    O layout possui 1000px de largura, e cada item possui 250px de largura.
+                                    Quando alinhamos os elementos com display: flex, já conseguimos ter o efeito de
                                     diminuir os itens, de acordo com a largura do container.</p>
+
+                                <p></p>
 
                                 <p>Como no exemplo abaixo, o layout possui 500px de largura, espremendo o container e
                                     os itens no seu interior:</p>
 
                                 <p>Imagem de 500px de largura, com fundo azul escuro, em seu interior contendo quatro
-                                    caixas de mesmo tamanho nas cores laranja, azul escuro, vermelho e azul claro.</p>
-
-                                <p>E se quiséssemos que os itens encolhessem em proporção diferente, dando maior
+                                    caixas de mesmo tamanho nas cores laranja, azul escuro, vermelho e azul claro.E se quiséssemos que os itens encolhessem em proporção diferente, dando maior
                                     destaque para uns do que para outros em telas menores? É aí que o flex-shrink é
                                     ideal para ser utilizado.</p>
 
                                 <p>Diferente da propriedade flex-grow, que quanto maior o valor inserido, mais um item
                                     poderá crescer. Com a propriedade flex-shrink quanto maior o valor inserido, mais
-                                    este item irá encolher em relação aos seus itens irmãos.</p>
-
-                                <p>Para entendermos na prática. Suponha que é preciso que apenas o primeiro item
+                                    este item irá encolher em relação aos seus itens irmãos.
+                                    Para entendermos na prática. Suponha que é preciso que apenas o primeiro item
                                     diminua. É possível com o seguinte código: </p>
+
+                                <p></p>
                             </span>
                         </span>
                     </a></li>
-                <li>
-                    <span class="desafios">
-                        <img src="https://www.alura.com.br/assets/api/cursos/css-construindo-layouts-com-grid.svg"
-                            alt="ícone CSS: construindo layouts com Grid" class="" width="37.5px" height="37.5px">
-
+                <li> <img src="https://www.alura.com.br/assets/api/cursos/css-construindo-layouts-com-grid.svg"
+                        alt="ícone CSS: construindo layouts com Grid" class="" width="37.5px" height="37.5px">
+                    <a href="Construindo-layouts-grid/WaveCast/index.html">
                         <p>Curso 2: CSS: construindo layouts com Grid</p>
+                        <p>WaveCast (Projeto usado)</p>
+                    </a>
+                    <span class="desafios">
+
                         <span class="desafio-descricao">
-                            <p><a
-                                    href="Construindo-layouts-grid/WaveCast/index.html">WaveCast (Projeto usado)</a>
+                            <p><a href="Construindo-layouts-grid/WaveCast/Atividade/1/page.html">Atividade 1</a></p>
+                            <p>Você foi encarregado de construir um site! Para construir o layout do projeto, foi
+                                escolhida
+                                a ferramenta CSS Grid para deixar o site responsivo e bem organizado. Você precisa criar
+                                uma
+                                estrutura de website da seguinte forma: Uma área de cabeçalho na parte superior </p>
+                            <p>Um menu lateral à direita na parte inferior </p>
+                            <p>Uma área de conteúdo principal à esquerda na parte inferior</p>
+                            <p>Essa é a estrutura HTML:</p>
+                        <pre><code>&lt;body&gt;
+&lt;header class="cabecalho"&gt;CONTEÚDO CABEÇALHO&lt;/header&gt;
+&lt;aside class="lateral"&gt;CONTEÚDO MENU LATERAL&lt;/aside&gt;
+&lt;main class="principal"&gt;CONTEÚDO PRINCIPAL&lt;/main&gt;
+&lt;/body&gt;
+</code></pre>
+                        </span>
+
+                        <span class="desafio-descricao">
+                            <p><a href="Construindo-layouts-grid/WaveCast/Atividade/2/page.html">Atividade 2</a></p>
+                            <p>Você está remodelando o site de uma loja. O cliente pediu para você criar uma seção de um
+                                site onde todas as imagens devem ser alinhadas à parte inferior das células do grid, de
+                                maneira que, independentemente da altura da célula, as imagens sempre apareçam no
+                                final.Seu código-base inicial é o seguinte:
+
                             </p>
-                            <p>
+                            <pre><code><xmp>.secao-imagens {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+max-height: 150px ;
+}</xmp></code></pre>
                         </span>
+
                         <span class="desafio-descricao">
-                            <p><a
-                                    href="Construindo-layouts-grid/WaveCast/Atividade/1/page.html">Atividade
-                                    1</a></p>
-                            <p><a
-                                    href="Construindo-layouts-grid/WaveCast/Atividade/2/page.html">Atividade
-                                    2</a></p>
-                            <p><a
-                                    href="Construindo-layouts-grid/WaveCast/Atividade/3/page.html">Atividade
-                                    3</a></p>
-                            <p><a
-                                    href="Construindo-layouts-grid/WaveCast/Atividade/4/page.html">Atividade
-                                    4</a></p>
+                            <p><a href="Construindo-layouts-grid/WaveCast/Atividade/3/page.html">Atividade 3</a></p>
+                            <p>Você trabalha em uma equipe de desenvolvimento Front-end e repara que um colega de equipe
+                                escreveu o seguinte código para organizar quatro itens utilizando CSS Grid:</p>
+                            <pre><code><xmp>.secao-horizontal .secao__cartoes {
+display: grid;
+grid-template-columns: 100px, 100px, 100px, 100px;
+}</xmp></code></pre>
                         </span>
-                    </span>
+
+                        <span class="desafio-descricao">
+                            <p><a href="Construindo-layouts-grid/WaveCast/Atividade/4/page.html">Atividade 4</a></p>
+                            <p>Você está trabalhando na construção de um layout e se depara com o seguinte código:</p>
+
+                            <span class="desafio-descricao">
+                                <pre><code><xmp>.secao-horizontal .cartao__imagem {
+grid-row: 1 / 4;
+grid-column: 1 / 2;
+}
+.secao-horizontal .cartao__botao {
+grid-row: 2 / 3;
+grid-column: 3 / 4;
+}
+.secao-horizontal .cartao__titulo {
+grid-row: 2 / 3;
+grid-column: 2 / 3;
+}
+.secao-horizontal .cartao__player {
+grid-row: 3 / 4;
+grid-column: 2 / 3;
+}</xmp></code></pre>
+                            </span>
+
                 </li>
                 <li>
                     <img src="https://www.alura.com.br/assets/api/cursos/sass-css-sintaticamente-espetacular.svg"
